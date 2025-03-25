@@ -15,3 +15,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+svg {
+  width: 35px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: For Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
