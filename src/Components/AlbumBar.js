@@ -1,4 +1,5 @@
 import React from 'react'
+import { AlbumItem } from './styled/AlbumItem.styled'
 
 
 export default function () {
@@ -7,57 +8,13 @@ export default function () {
 
         <div className="container w-full h-full flex flex-col gap-4 overflow-auto flex-grow-0 scrollbar-hide">
         
-            <div className="albumItem w-12 h-12 flex-shrink-0"> {/* This divs need to get component*/}
-                <img src="/SampleCover.png" alt="" />
-            </div>
+            <AlbumItem>
 
-            <div className="albumItem w-12 h-12 flex-shrink-0">
                 <img src="/SampleCover.png" alt="" />
-            </div>
 
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
+            </AlbumItem>
 
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
-
-            <div className="albumItem w-12 h-12 flex-shrink-0">
-                <img src="/SampleCover.png" alt="" />
-            </div>
+            
         </div>
         
     </div>
